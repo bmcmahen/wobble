@@ -1,0 +1,13 @@
+{
+  "name": "wobble",
+  "repo": "bmcmahen/wobble",
+  "description": "a wobble animation in css",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "wobble.css"
+  ]
+}

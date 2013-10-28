@@ -1,0 +1,42 @@
+.wobble-animation {
+  -webkit-animation-name: wobble;
+  -moz-animation-name: wobble;
+  -ms-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 0.2s;
+  -moz-animation-duration: 0.2s;
+  -ms-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes wobble {
+  0% { -webkit-transform: translateX(0%) rotate(0deg); }
+  25% {  -webkit-transform: translateX(-1%) rotate(-1deg); }
+  75% {  -webkit-transform: translateX(1%) rotate(1deg); }
+  100% {  -webkit-transform: translateX(0%) rotate(0deg); }
+}
+
+@-moz-keyframes wobble {
+  0% { -moz-transform: translateX(0%) rotate(0deg); }
+  25% {  -moz-transform: translateX(-1%) rotate(-1deg); }
+  75% {  -moz-transform: translateX(1%) rotate(1deg); }
+  100% {  -moz-transform: translateX(0%) rotate(0deg); }
+}
+
+@-ms-keyframes wobble {
+  0% { -ms-transform: translateX(0%) rotate(0deg); }
+  25% {  -ms-transform: translateX(-1%) rotate(-1deg); }
+  75% {  -ms-transform: translateX(1%) rotate(1deg); }
+  100% {  -ms-transform: translateX(0%) rotate(0deg); }
+}
+
+@keyframes wobble {
+  0% { transform: translateX(0%) rotate(0deg); }
+  25% { transform: translateX(-1%) rotate(-1deg); }
+  75% { transform: translateX(1%) rotate(1deg); }
+  100% { transform: translateX(0%) rotate(0deg); }
+}
